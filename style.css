@@ -7,6 +7,7 @@
 html {
     font-size: 16px;
     height: 100%;
+    font-family: "Inter", sans-serif;
 }
 
 img {
@@ -264,6 +265,17 @@ line-height: 24px;
 }
 .application__form {
     width: 55%;
+}
+
+.form-button {
+    width: 43.8%;
+    border-radius: 32px;
+    background-color: #FF9A06;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
 }
 
 /*ЗАЯВКА НА ОБУЧЕНИЕ КОНЕЦ*/
