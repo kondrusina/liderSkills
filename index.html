@@ -138,17 +138,17 @@
 
             <!--ЗАЯВКА НА ОБУЧЕНИЕ НАЧАЛО-->
             <div class="application">
-                <form class=" form application__form " action="">
-                    <h4></h4>
+                <form name="application" class=" form application__form " action="">
+                    <h4 class="form__title">Заявка на обучение:</h4>
                     <label class="form__label" for="secondname">Фамилия</label>
-                    <input id="secondname" class="form__input" type="text">
+                    <input name="secondname" id="secondname" class="form__input" type="text">
                     <label for="name">Имя</label>
-                    <input id="name" class="form__input" type="text">
+                    <input required name="name" id="name" class="form__input" type="text">
                     <label for="email">Электронная почта</label>
-                    <input id="email" class="form__input" type="email">
+                    <input required name="email" id="email" class="form__input" type="email">
                     <label for="phone">Телефон</label>
-                    <input id="phone" class="form__input" type="tel">
-                    <button class="form-button form-button--margin">
+                    <input required name="phone" id="phone" class="form__input" type="tel">
+                    <button type="submit" class="form-button form-button--margin">
                         Записаться на курс
                     </button>
                 </form>

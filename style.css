@@ -221,18 +221,16 @@ line-height: 24px;
     margin: 0 auto;
     background-color: white;
     border-radius: 52px;
-    padding: 5%;
+    padding: 5.9% 0;
 }
-.form>input {
-    background-color: #D9D9D9;
-    box-shadow: 0px 4px 4px 0px #00000040 inset;
-    border: none;
-    border-radius: 11px;
-    padding: 0.5%;
-    min-width: 37%;
-    height: 37px;
 
+.form__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 5%;
 }
+
 form>label {
     font-size: 20px;
     font-weight: 600;
@@ -243,7 +241,16 @@ form>label {
 }
 .form__input {
     margin: 2% 0;
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px #00000040 inset;
+    border-radius: 11px;
+    padding: 0.5%;
+    min-width: 37%;
+    height: 37px;
+    border: 1px solid #D9D9D9;
+    outline: none !important;
 }
+
 .application__form {
     width: 55%;
 }
@@ -261,5 +268,10 @@ form>label {
 .form-button--margin {
     margin-top: 8.6%;
 }
+.form__input.focused {
+    border:2px solid #FFD18E; /* Измените на желаемый цвет рамки */
+}
 
 /*ЗАЯВКА НА ОБУЧЕНИЕ КОНЕЦ*/
+
+
