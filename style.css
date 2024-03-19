@@ -3,17 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 html {
     font-size: 16px;
     height: 100%;
+    font-family: "Inter", sans-serif;
 }
-
 img {
     display: block;
     max-width: 100%;
 }
-
 .body {
     background-color:rgb(175, 175, 223) ;
     /*
@@ -27,7 +25,6 @@ img {
     font-weight: 400;
     font-style: normal;
 }
-
 ._container {
     max-width: 1280px;
     margin: 0 auto;
@@ -36,7 +33,6 @@ img {
 .body__header {
     margin-bottom: 9.5%;
 }
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -47,11 +43,9 @@ img {
     font-size: 13px;
     line-height: 16px;
 }
-
 .body__main {
     margin-top: 25%;
 }
-
 .logo {
     flex-basis: 49%;
     padding-right: 10%;
@@ -86,7 +80,6 @@ img {
     text-align: center;
     box-shadow: 9px 13px 20px -5px rgba(80,67,82,1);
 }
-
 .picture {
     display: flex;
     justify-content: space-evenly;
@@ -98,7 +91,6 @@ img {
     font-size:  (24px + 8 * (100vw / 1280));
     line-height: 44px;
 }
-
 .fotter {
     display: flex;
     justify-content: space-between;
@@ -108,7 +100,6 @@ img {
     line-height: 19px;
     padding: 1.5% 4.8% ;
 }
-
 .button {
     background: #FFD18E;
     border: none;
@@ -149,13 +140,11 @@ img {
     flex-direction: column;
 
 }
-
 .bubble {
     opacity: 0;
     transform: translateX(100%);
     transition: opacity 0.5s, transform 0.5s;
 }
-
 .bubble-bg {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -171,11 +160,9 @@ img {
 .right {
     justify-content: right;
 }
-
 .left {
     justify-content: left;
 }
-
 .center {
     justify-content: center;
 }
@@ -185,10 +172,6 @@ img {
 .target {
     display: flex;
     padding: 15.4% 0 0 0;
-}
-.target-content {
-    
-    
 }
 
 .target-text {
@@ -217,14 +200,18 @@ line-height: 24px;
     margin: 3.8% 0 ;
 
 }
-.target-img {
+.target-content__button {
+    margin: 3.8% 0 ;
+
 }
 .important {
     padding: 2.3% 5.5%;
     width: 86.5%;
     box-shadow: 9px 13px 20px -5px rgba(80,67,82,1);
 }
-.importsnt-heading {
+.contents__important {
+    width: 55.5%;
+    margin: 3.8% 0 ;
 }
 .table-of-contents__important {
     width: 55.5%;
